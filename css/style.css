@@ -1,0 +1,189 @@
+body {
+  
+    position: relative;
+background: #fff;
+color: #0D0D2B;
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+   
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    outline: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+::before,
+::after {
+    box-sizing: border-box;
+}
+
+h3{
+    text-align: center;
+    margin:100px 0 ;
+    font-size: 60px;
+}
+@media screen and (min-width: 992px) {
+    .clubs{
+        display: flex;
+        padding: 10px;
+        gap: 10px;
+    flex-basis: 100%;
+    max-width: 100%;
+    /* flex-wrap: wrap; */
+    }
+    .club{
+       position: relative;
+        color: #f2f2f2;
+        /* padding: 10px; */
+        /* display: flex; */
+        flex-basis: 33.33%;
+    max-width:33.33%;
+    border: 2px solid black;
+        /* box-sizing: border-box; */
+    }
+    
+    
+    .club.chelsea{
+        background-color: #0D0D2B;
+    }
+    .club.leed{
+        background-color: rgb(10, 141, 255);
+    }
+    .club.arsenal{
+        background-color: crimson;
+    }
+    .club .title{
+       background-color: green;
+       display: inline-flex;
+    padding: 5px 30px;
+    float: right;
+    border: 2px solid black;
+    border-top: none;
+    border-right: none;
+    font-size: 20px;
+    
+    }
+    .club p{
+        padding-top:45px;
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-bottom: 15px;
+        font-size: 16px;
+       
+    }
+    
+}
+@media screen and (max-width: 991px) and (min-width: 768px) {
+    .clubs{
+        display: flex;
+        padding: 5px;
+        flex-wrap: wrap;
+        gap: 10px;
+        /* column-gap: 10px; */
+    flex-basis: 100%;
+    max-width: 100%;
+    }
+    .club{
+       position: relative;
+        color: #f2f2f2;
+        /* margin:px; */
+    border: 2px solid black;
+    }
+    
+    
+    .club.chelsea{
+        background-color: #0D0D2B;
+        flex-basis: 49.3%;
+    max-width:50%;
+    }
+    .club.leed{
+        background-color: rgb(10, 141, 255);
+        flex-basis: 49.3%;
+    max-width:50%;
+    }
+    .club.arsenal{
+        background-color: crimson;
+        flex-basis: 100%;
+        max-width:100%;
+    }
+    .club .title{
+       background-color: green;
+       display: inline-flex;
+    padding: 5px 30px;
+    float: right;
+    border: 2px solid black;
+    border-top: none;
+    border-right: none;
+    font-size: 20px;
+    
+    }
+    .club p{
+        padding-top:45px;
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-bottom: 15px;
+        font-size: 16px;
+       
+    }
+}
+@media screen and (max-width: 767px){
+    .clubs{
+        display: flex;
+        padding: 10px;
+        flex-wrap: wrap;
+        gap: 10px;
+    flex-basis: 100%;
+    max-width: 100%;
+    }
+    .club{
+       position: relative;
+        color: #f2f2f2;
+        /* margin:px; */
+    border: 2px solid black;
+    }
+    
+    
+    .club.chelsea{
+        background-color: #0D0D2B;
+        flex-basis: 100%;
+    max-width:100%;
+    }
+    .club.leed{
+        background-color: rgb(10, 141, 255);
+        flex-basis: 100%;
+    max-width:100%;
+    }
+    .club.arsenal{
+        background-color: crimson;
+        flex-basis: 100%;
+        max-width:100%;
+    }
+    .club .title{
+       background-color: green;
+       display: inline-flex;
+    padding: 5px 30px;
+    float: right;
+    border: 2px solid black;
+    border-top: none;
+    border-right: none;
+    font-size: 20px;
+    
+    }
+    .club p{
+        padding-top:45px;
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-bottom: 15px;
+        font-size: 16px;
+       
+    }
+    h3{
+        text-align: center;
+        margin:50px 0 ;
+        font-size: 60px;
+    }
+}
